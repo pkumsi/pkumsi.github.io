@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark">PK</span>
+      <span class="brand-name">{{ site.title }}</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      {% for link in site.nav_links %}
+      <a href="{{ link.url | relative_url }}" class="{% if page.url == link.url %}active{% endif %}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="ghost-btn" aria-label="Toggle dark mode">🌙</button>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>

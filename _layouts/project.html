@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% assign project = site.data.projects | where: "slug", page.slug | first %}
+<article class="project-detail container">
+  <a class="back-link" href="{{ '/projects/' | relative_url }}">← All Projects</a>
+  <header class="project-header">
+    <p class="eyebrow">Project</p>
+    <h1>{{ project.name }}</h1>
+    <p class="lede">{{ project.summary }}</p>
+    <div class="project-meta">
+      <span class="pill">Tech: {{ project.tech | join: ', ' }}</span>
+      <a class="pill link-pill" href="{{ project.repo }}" target="_blank" rel="noreferrer">View Repository</a>
+    </div>
+  </header>
+  <section class="project-body">
+    <div class="project-card">
+      <h2>Overview</h2>
+      <p>{{ project.description | default: project.summary }}</p>
+      <ul class="key-points">
+        {% for point in project.highlights %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="project-card">
+      <h2>What it does</h2>
+      <p>{{ project.details }}</p>
+    </div>
+  </section>
+</article>

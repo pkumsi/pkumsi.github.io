@@ -1,0 +1,39 @@
+title: "Prerana Kumsi"
+description: "Software Engineer building intelligent experiences across web, AI, and distributed systems."
+url: "https://pkumsi.github.io"
+baseurl: ""
+author:
+  name: "Prerana Kumsi"
+  email: "pkumsi@asu.edu"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-seo-tag
+permalink: /:categories/:title/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+      is_project: true
+sass:
+  style: compressed
+
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Experience"
+    url: "/experience/"
+  - title: "About"
+    url: "/about/"
+  - title: "Resume"
+    url: "/resume/"
+  - title: "Contact"
+    url: "/contact/"

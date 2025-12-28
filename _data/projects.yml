@@ -1,0 +1,59 @@
+- slug: gymai-scanner
+  name: "GymAI — Smart Equipment Scanner & AI Workout Planner"
+  summary: "Multimodal AI app that identifies gym equipment and creates personalized training sessions."
+  repo: "https://github.com/pkumsi/gymai-scanner"
+  tech: ["React", "Flask", "OpenCV", "Clarifai GPT-4o"]
+  featured: true
+  highlights:
+    - Processes images and video to detect gym equipment in real time.
+    - Generates tailored workout plans aligned to user goals.
+    - Combines computer vision with LLM-driven planning for actionable outputs.
+  details: "Bridges computer vision and fitness coaching by pairing OpenCV detection with Clarifai GPT-4o reasoning to propose progressive workouts, complete with safety cues and pacing."
+
+- slug: twinmind-second-brain
+  name: "TwinMind Second Brain — Ingest + Search + Chat"
+  summary: "End-to-end personal knowledge base: ingest files, embed, vector search, and chat with sources."
+  repo: "https://github.com/pkumsi/twinmind-second-brain"
+  tech: ["FastAPI", "Celery", "Redis", "Postgres", "pgvector"]
+  featured: true
+  highlights:
+    - Async ingestion pipeline for URLs, PDFs, audio with chunking and embeddings.
+    - Vector search with citations so users can trust retrieved answers.
+    - Background workers keep the API responsive while processing large inputs.
+  details: "Implements a production-ready retrieval stack with Celery workers, Redis queues, and Postgres + pgvector for hybrid search. Exposes APIs for ingest, query, and chat with grounded references."
+
+- slug: telescope-cps
+  name: "Telescope CPS Simulator"
+  summary: "Cyber-Physical System simulator for telescope control using SRC diagram semantics."
+  repo: "https://github.com/pkumsi/telescope-cps"
+  tech: ["Java", "Spring Boot", "WebSocket"]
+  featured: true
+  highlights:
+    - Models telescope control logic with SRC diagrams to drive simulation flows.
+    - Live WebSocket updates mirror state transitions and telemetry events.
+    - Built modular services to extend simulation scenarios safely.
+  details: "Delivers a Spring Boot backend that interprets SRC-defined behaviors and streams real-time telescope states to clients, enabling rapid prototyping of control strategies."
+
+- slug: vani-logic-lang
+  name: "Vāṇī — Logic-based Programming Language"
+  summary: "Custom imperative language with tokenizer, parser, and evaluator in SWI-Prolog."
+  repo: "https://github.com/pkumsi/VANI-a-logic-based-programming-language"
+  tech: ["SWI-Prolog", "DCG"]
+  featured: false
+  highlights:
+    - Implements lexical analysis and parsing with Definite Clause Grammars.
+    - Evaluates program constructs with clear separation of concerns.
+    - Showcases language tooling built entirely in Prolog.
+  details: "A didactic language project that walks from tokenization through grammar parsing to evaluation, demonstrating Prolog’s strength for language tooling."
+
+- slug: ai-dream-bank
+  name: "AI Dream Bank"
+  summary: "Dream journaling app with NLP-based insights using the DreamBank dataset."
+  repo: "https://github.com/pkumsi/AI-Dream-Bank"
+  tech: ["AWS DynamoDB", "NLP", "ML"]
+  featured: false
+  highlights:
+    - Stores user dreams with scalable persistence on DynamoDB.
+    - Extracts themes and sentiments with lightweight NLP analysis.
+    - Presents insights that encourage reflection and pattern finding.
+  details: "Blends structured storage with ML-driven summaries to help users notice patterns in their dreams, all while keeping a lean, cloud-friendly footprint."
