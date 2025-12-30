@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Experience"
-subtitle: "Hands-on roles across product engineering and teaching."
+# subtitle: "Hands-on roles across product engineering and teaching."
 permalink: /experience/
 ---
 <div class="timeline">

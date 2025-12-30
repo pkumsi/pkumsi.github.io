@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Projects"
-subtitle: "Selected builds spanning AI, backend systems, and web experiences."
+# subtitle: "Selected builds spanning AI, backend systems, and web experiences."
 permalink: /projects/
 ---
 <div class="grid cards">
