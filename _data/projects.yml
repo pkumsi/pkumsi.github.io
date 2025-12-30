@@ -57,3 +57,25 @@
     - Extracts themes and sentiments with lightweight NLP analysis.
     - Presents insights that encourage reflection and pattern finding.
   details: "Blends structured storage with ML-driven summaries to help users notice patterns in their dreams, all while keeping a lean, cloud-friendly footprint."
+
+- slug: reliable
+  name: "ReliAIble"
+  summary: "Interview-based HCI study (n=16) proposing actionable UI + privacy + accuracy design implications for LLM products."
+  repo: "https://drive.google.com/file/d/1PrqYkxo7eIRNn7I2VHBrU0J2kMEusMf1/view?usp=sharing"
+  tech: ["Qualitative Research", "Semi-Structured Interviews", "Thematic Analysis", "HCI", "LLM UX"]
+  featured: false
+  highlights:
+    - Conducted 30–60 min semi-structured Zoom interviews with 16 STEM graduate students to study LLM adoption drivers.
+    - Built an interview protocol spanning core themes (privacy/accuracy/UI), scenario prompts, and interventions (e.g., opt-out toggle, confidence scores).
+    - Performed LLM-assisted initial coding followed by human review; consolidated 44 subcodes into four themes: Performance & Efficiency, Usability & Interface Interaction, Privacy & Data Control, Adoption & Behavioral Patterns.
+    - Synthesized implementable product guidance: inline privacy warnings, ephemeral chats, on-device/region hosting options, confidence scores, citations, previews, and lightweight UI toggles.
+  details: >
+    Explores how users balance privacy, perceived accuracy, and interface usability when choosing between LLMs.
+    Findings emphasize accuracy as the primary trust driver, strong preference for clear data controls (opt-in/out, transparency),
+    and high value for preview-first UX and quick inline toggles (e.g., show reasoning / disable emojis). Also surfaces adoption
+    behaviors like model switching, premium subscriptions, and brand/jurisdiction trust as a fourth emergent factor.
+
+
+
+
+
