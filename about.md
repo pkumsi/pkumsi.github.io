@@ -6,7 +6,7 @@ permalink: /about/
 ---
 <div class="grid two">
   <div>
-    <p>I’m Prerana Kumsi, a full-stack engineer who enjoys bridging design sensibilities with backend pragmatism. I thrive in teams that value innovation, feedback, and iteration.</p>
+    <p>I’m Prerana Kumsi, a full-stack engineer who enjoys bridging design sensibilities with backend pragmatism. Open to roles and collaborations that value innovation, feedback, and user empathy.</p>
     <p>My toolkit spans C#/.NET, Python microservices, React, Java/Spring Boot, and modern data stacks. Lately, I’ve focused on retrieval-augmented AI experiences, real-time simulations, and developer experience improvements.</p>
   </div>
   <!-- <div class="card">
